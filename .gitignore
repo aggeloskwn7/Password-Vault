@@ -1,0 +1,18 @@
+# Ignore build files
+/build/
+/x64/
+/Release/
+/Debug/
+*.obj
+*.pdb
+*.exe
+*.dll
+*.lib
+*.ilk
+
+# Ignore Visual Studio files
+.vs/
+
+# Ignore cache
+*.log
+*.cache
