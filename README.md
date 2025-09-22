@@ -86,12 +86,14 @@ C:\Users<You>\AppData\Local\PasswordVault\
 1. Clone the repository:
  ```bash
  git clone https://github.com/yourusername/password-vault.git
- cd password-vault```
+ cd password-vault
+```
 
 2. Install dependencies with vcpkg:
 
 ```bash
-vcpkg install openssl:x64-windows-static glfw3:x64-windows-static nlohmann-json:x64-windows```
+vcpkg install openssl:x64-windows-static glfw3:x64-windows-static nlohmann-json:x64-windows
+```
 
 
 3. Open the project in Visual Studio.
