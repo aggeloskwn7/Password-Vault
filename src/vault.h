@@ -6,11 +6,13 @@
 #pragma once
 #include <string>
 #include <vector>
+#include <chrono>
 
 struct Entry {
     std::string website;
     std::string username;
     std::string password; // kept in memory only after unlock
+    std::time_t saved_at = std::time(nullptr);
 };
 
 struct Vault {

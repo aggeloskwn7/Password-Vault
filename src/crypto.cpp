@@ -13,7 +13,7 @@ namespace {
     constexpr size_t TAG_LEN = 16;
 }
 
-// everything below is pretty self explanatory, you just need to know how to use OpenSSL EVP API. For any help please contact me through Github. I will be happy to help.
+// everything below is pretty self explanatory, you just need to know how to use OpenSSL EVP API if you want to add or modify anything. For any help please contact me through Github. I will be happy to help.
 
 bool derive_key_pbkdf2(
     const std::string& master_password,

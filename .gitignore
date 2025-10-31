@@ -13,6 +13,9 @@
 # Ignore Visual Studio files
 .vs/
 
+#Ignore ImGui
+/external/imgui
+
 # Ignore cache
 *.log
 *.cache

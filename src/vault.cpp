@@ -28,8 +28,9 @@ bool save_vault(const Vault& v, const std::string& path, const std::string& mast
         j.push_back({
             {"website", e.website},
             {"username", e.username},
-            {"password", e.password}
-            });
+            {"password", e.password},
+            {"saved_at", e.saved_at }
+           });
     }
     auto plain = to_bytes(j.dump());
 
@@ -100,7 +101,8 @@ bool load_vault(Vault& v, const std::string& path, const std::string& master) {
         v.entries.push_back(Entry{
             it.value("website",""),
             it.value("username",""),
-            it.value("password","")
+            it.value("password",""),
+			it.value("saved_at", std::time_t(0))
             });
     }
     v.dirty = false;

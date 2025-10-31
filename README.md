@@ -1,6 +1,6 @@
 # Password Vault
 
-A lightweight, open-source password manager built in **C++17** with **ImGui** for the UI and **AES-256-GCM encryption** for secure storage.
+A lightweight, open-source password manager built in **C++17** with **ImGui** and **OpenGL** for the UI and **AES-256-GCM encryption** for secure storage.
 
 The goal of this project is to provide a simple, fully local password manager that demonstrates modern C++ development, encryption, and GUI design.  
 All data is stored in a single encrypted file under your **LocalAppData** folder.
@@ -20,11 +20,18 @@ All data is stored in a single encrypted file under your **LocalAppData** folder
 
 - **Password Management**
   - Add entries with `Website`, `Username/Email`, and `Password`.
-  - Passwords are hidden by default (`********`) and can be toggled with an eye icon.
+  - Passwords are hidden by default (`********`) and can be toggled with an show button.
   - Copy passwords to clipboard with one click.
 
 - **Auto Save**  
   Every new entry is automatically saved to the encrypted vault.
+
+- **Check Password**
+  - Check the strength of a password.
+  - Generate a random strong password and copy it.
+
+- **Search**
+  Search up instantly and easily the password you need.
 
 - **LocalAppData Storage**  
   Vault file (`vault.dat`) is saved under:
@@ -43,8 +50,8 @@ C:\Users<You>\AppData\Local\PasswordVault\
 </p>
 
 <p align="center">
-<img src="https://i.imgur.com/Hp2gQAk.png" width="700" alt="Vault Entries">
-<br><em>Vault entries with hidden passwords and copy/show buttons</em>
+<img src="https://i.imgur.com/loSyu9u.png" width="700" alt="Vault Entries">
+<br><em>Vault entries with hidden passwords and copy/show/delete buttons</em>
 </p>
 
 ---
@@ -68,6 +75,15 @@ C:\Users<You>\AppData\Local\PasswordVault\
 
 5. **Saving & Closing**  
  Vaults are saved automatically. Closing the app will leave your encrypted vault file in LocalAppData.
+
+---
+
+## How to use fast and easy
+1. Go to releases
+2. Download the executable file
+3. Run it!
+
+**If you want to build it yourself follow the instructions below!**
 
 ---
 
@@ -103,7 +119,19 @@ C++ Language Standard → ISO C++17
 
 Runtime Library → /MT for static linking (so no DLLs required).
 
+Properties → C++ → General → Additional Include Libraries → Change the paths to **YOUR** paths depending on where you installed the source code and the libraries needed from vcpkg
+
+Properties → Linker → General → Additional Include Libraries → Change the paths to **YOUR** paths depending on where you installed the source code and the libraries needed from vcpkg
+
 Release Mode
 
 4. Build and run.
 The app window should launch with the login screen.
+
+---
+
+# Credits: https://github.com/aggeloskwn7
+
+---
+
+# If you face any issues contact me through the issues page on this Repository and I will be happy to help

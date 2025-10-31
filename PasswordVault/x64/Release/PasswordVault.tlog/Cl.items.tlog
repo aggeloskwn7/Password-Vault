@@ -1,0 +1,9 @@
+C:\Password-Vault\external\imgui\backends\imgui_impl_glfw.cpp;C:\Password-Vault\PasswordVault\x64\Release\imgui_impl_glfw.obj
+C:\Password-Vault\external\imgui\backends\imgui_impl_opengl3.cpp;C:\Password-Vault\PasswordVault\x64\Release\imgui_impl_opengl3.obj
+C:\Password-Vault\external\imgui\imgui.cpp;C:\Password-Vault\PasswordVault\x64\Release\imgui.obj
+C:\Password-Vault\external\imgui\imgui_draw.cpp;C:\Password-Vault\PasswordVault\x64\Release\imgui_draw.obj
+C:\Password-Vault\external\imgui\imgui_tables.cpp;C:\Password-Vault\PasswordVault\x64\Release\imgui_tables.obj
+C:\Password-Vault\external\imgui\imgui_widgets.cpp;C:\Password-Vault\PasswordVault\x64\Release\imgui_widgets.obj
+C:\Password-Vault\src\crypto.cpp;C:\Password-Vault\PasswordVault\x64\Release\crypto.obj
+C:\Password-Vault\src\main.cpp;C:\Password-Vault\PasswordVault\x64\Release\main.obj
+C:\Password-Vault\src\vault.cpp;C:\Password-Vault\PasswordVault\x64\Release\vault.obj
